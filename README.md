@@ -16,4 +16,4 @@ This project analyzes the sentiment of tweets related to a specific query using 
 - `nltk`
 - `requests`
 - `python-dotenv`
-- `exa_py` (Assuming it's a third-party library for API interaction)
+- `exa_py` 
