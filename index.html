@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Twitter Sentiment Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Twitter Sentiment Analysis</h1>
+        <form method="post">
+            <label for="query">Enter Search Query:</label>
+            <input type="text" id="query" name="query" required>
+            <button type="submit">Analyze</button>
+        </form>
+    </div>
+</body>
+</html>
